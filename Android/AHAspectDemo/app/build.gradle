@@ -1,4 +1,9 @@
+plugins {
+    id "com.autohome.ahaspect" version "1.0.0" apply false
+}
+
 apply plugin: 'com.android.application'
+apply plugin: 'com.autohome.ahaspect'
 
 android {
     compileSdkVersion 25
