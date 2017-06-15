@@ -12,7 +12,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.autohome:ahaspect:1.0.0"
+    classpath "gradle.plugin.com.autohome:ahaspect:1.0.2"
   }
 }
 
@@ -23,11 +23,15 @@ apply plugin: "com.autohome.ahaspect"
 
 ```
 plugins {
-    id "com.autohome.ahaspect" version "1.0.0" apply false
+    id "com.autohome.ahaspect" version "1.0.2" apply false
 }
 
 apply plugin: 'com.android.application'
 apply plugin: 'com.autohome.ahaspect'
 ```
 
+
+### Xcode
+
+* Import `AHAspect.h` and `AHAspect.m` to your project
 
