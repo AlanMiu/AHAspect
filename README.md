@@ -1,5 +1,9 @@
 # AHAspect
 
+### Xcode
+
+* Import `AHAspect.h` and `AHAspect.m` to your project
+
 ### Android Studio Plugin
 
 * Build script snippet for use in all Gradle versions:
@@ -31,7 +35,4 @@ apply plugin: 'com.autohome.ahaspect'
 ```
 
 
-### Xcode
-
-* Import `AHAspect.h` and `AHAspect.m` to your project
 
